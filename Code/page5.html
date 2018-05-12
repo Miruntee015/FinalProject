@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>ระบบช่วยเรียนรู้การเกษตรและพืชไร่</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  </script>
+  <style>
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+  }
+  </style>
+
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 850px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+    
+    /* Set black background color, white text and some padding */
+   footer {
+      background-color: #000;
+      color: gray;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }
+  </style>
+</head>
+<body>
+
+<div class="jumbotron text-center">
+  <marquee behavior="alternate"><h1><font face="JasmineUPC" color=blue>ระบบช่วยเรียนรู้การเกษตรและพืชไร่</font></h1></marquee>
+</div>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">หน้าแรก</a></li>
+        <li><a href="page2.html">การเกษตร</a></li>
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="page3.html">พืชไร่<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+          <li><a href="page3.html">ความหมาย</a></li>
+          <li><a href="page3-1.html">การแบ่งประเภทตามพืชที่ปลูก</a></li>
+          <li><a href="page3-2.html">การแบ่งตามการใช้ประโยชน์</a></li>
+          <li><a href="page3-3.html">การแบ่งตามลักษณะพฤษศาสตร์</a></li>
+        </ul>
+      </li>
+              <li><a href="page10.html">เครื่องมือทางการเกษตร</a></li>
+        <li><a href="page11.html">การเลี้ยงสัตว์</a></li>
+        <li><a href="page4.html">ตัวอย่างพืชไร่</a></li>
+        <li><a href="page5.html">แบบฝึกหัด</a></li>
+
+        <li><a href="page8.php">ข้าว</a></li>
+        <li><a href="page9.html">สื่อมัลติมีเดีย</a></li>
+        <li><a href="Aboutme/index.html">ติดต่อเรา</a></li>
+      </ul>
+     
+    </div>
+  </div>
+</nav>
+
+
+<div class="container-fluid text-center">    
+  <div class="row content">
+    <div class="col-sm-2 sidenav">
+      <p><a href="page5.html">แบบฝึกหัดชุดที่ 1</a></p>
+      <p><a href="page5-1.html">แบบฝึกหัดชุดที่ 2</a></p>
+      <p><a href="Quiz1/index.html">แบบฝึกหัดชุดที่ 3</a></p>
+      <p><a href="Quiz2/index.html">แบบฝึกหัดชุดที่ 4</a></p>
+      <p><a href="Quiz3/index.html">แบบฝึกหัดชุดที่ 5</a></p>
+      <p><a href="Quiz4/index.html">แบบฝึกหัดชุดที่ 6</a></p>
+      <p><a href="Quiz5/index.html">แบบฝึกหัดชุดที่ 7</a></p>
+      <p><a href="Quiz6/index.html">แบบฝึกหัดชุดที่ 8</a></p>
+    </div>
+<div class="col-sm-8 text-left"> 
+      <h1><font face=JasmineUPC size=5 color=blue><b>แบบฝึกหัดชุดที่ 1</b></font></h1>
+
+<script language="JavaScript">
+<!--
+
+var numQues = 5;
+var numChoi = 4;
+
+var answers = new Array(5);
+answers[0] = "พืชใบเลี้ยงเดี่ยว";
+answers[1] = "แสงสว่าง";
+answers[2] = "การเกษตรทำให้พื้นที่ป่าสงวนของประเทศลดลง";
+answers[3] = "มีอายุเพียงฤดูการเดียว";
+answers[4] = "5 ประเภท";
+
+function getScore(form) {
+  var score = 0;
+  var currElt;
+  var currSelection;
+
+  for (i=0; i<numQues; i++) {
+    currElt = i*numChoi;
+    for (j=0; j<numChoi; j++) {
+      currSelection = form.elements[currElt + j];
+      if (currSelection.checked) {
+        if (currSelection.value == answers[i]) {
+          score++;
+          break;
+        }
+      }
+    }
+  }
+
+  score = Math.round(score/numQues*100);
+  form.percentage.value = score + "%";
+
+  var correctAnswers = "";
+  for (i=1; i<=numQues; i++) {
+    correctAnswers += i + ". " + answers[i-1] + "\r\n";
+  }
+  form.solutions.value = correctAnswers;
+
+}
+
+// -->
+</script>แบบทดสอบโดยครูทองครูไทยหัวใจพอเพียง
+</head>
+
+<body>
+
+<form name="quiz">
+1. ข้อใดคือการจำแนกพืชไร่ตามหลักพฤกษศาสตร์ <br>
+<input type="radio" name="q1" value="พืชใช้หัว">พืชใช้หัว<br>
+<input type="radio" name="q1" value="พืชให้น้ำมัน">พืชให้น้ำมัน<br>
+<input type="radio" name="q1" value="พืชใบเลี้ยงเดี่ยว">พืชใบเลี้ยงเดี่ยว<br>
+<input type="radio" name="q1" value="พืชให้น้ำยาง">พืชให้น้ำยาง<br><br>
+<p>
+
+2. ข้อใดมีบทบาทในการกระตุ้นการออกดอกและการงอกของเมล็ดพืชบางชนิด<br>
+<input type="radio" name="q2" value="อากาศ">อากาศ<br>
+<input type="radio" name="q2" value="แสงสว่าง">แสงสว่าง<br>
+<input type="radio" name="q2" value="พันธุกรรม">พันธุกรรม<br>
+<input type="radio" name="q2" value="ขนาดของพืช">ขนาดของพืช<br>
+<p>
+
+3. ข้อใดไม่ใช่ประโยชน์ของอาชีพการเกษตร <br>
+<input type="radio" name="q3" value="การเกษตรทำให้พื้นที่ป่าสงวนของประเทศลดลง">การเกษตรทำให้พื้นที่ป่าสงวนของประเทศลดลง<br>
+<input type="radio" name="q3" value="การเกษตรเป็นสินค้าที่ทำรายได้ให้กับประเทศ">การเกษตรเป็นสินค้าที่ทำรายได้ให้กับประเทศ<br>
+<input type="radio" name="q3" value="การเกษตรช่วยให้ประชาชนมีงานทำตลอดทั้งปี">การเกษตรช่วยให้ประชาชนมีงานทำตลอดทั้งปี<br>
+<input type="radio" name="q3" value="การเกษตรทำให้เกิดปัจจัยสี่ที่จำเป็นต่อการดำรงชีพของมนุษย์">การเกษตรทำให้เกิดปัจจัยสี่ที่จำเป็นต่อการดำรงชีพของมนุษย์<br>
+<p>
+
+4. พืชไร่ได้แก่พืชประเภทใด<br>
+<input type="radio" name="q4" value="มีอายุหลายปี">มีอายุหลายปี<br>
+<input type="radio" name="q4" value="มีต้นและกิ่งก้านใหญ่">มีต้นและกิ่งก้านใหญ่<br>
+<input type="radio" name="q4" value="มีต้นและกิ่งก้านมาก">มีต้นและกิ่งก้านมาก<br>
+<input type="radio" name="q4" value="มีอายุเพียงฤดูการเดียว">มีอายุเพียงฤดูการเดียว<br>
+<p>
+
+5. การแบ่งพืชทางการเกษตรแบ่งได้กี่ประเภท<br>
+<input type="radio" name="q5" value="3 ประเภท">3 ประเภท<br>
+<input type="radio" name="q5" value="4 ประเภท">4 ประเภท<br>
+<input type="radio" name="q5" value="5 ประเภท">5 ประเภท<br>
+<input type="radio" name="q5" value="6 ประเภท">6 ประเภท<br>
+<p>
+
+<input type="button" value="ดูผลคะแนน" onClick="getScore(this.form)">
+<input type="reset" value="ยกเลิก"><p>
+ผลคะแนน = <input type=text size=15 name="percentage"><br>
+เฉลยคำตอบ:<br>
+<textarea name="solutions" wrap="virtual" rows="4" cols="80"></textarea>
+</form>
+
+</body></html>

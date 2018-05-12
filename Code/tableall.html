@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>ระบบช่วยเรียนรู้การเกษตรและพืชไร่</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 3700px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #000;
+      color: gray;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }
+  </style>
+  <style>
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+}
+
+td, th {
+    border: 2px solid #000000;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+</style>
+</head>
+<body>
+
+<div class="jumbotron text-center">
+  <marquee behavior="alternate"><h1><font face="JasmineUPC" color=blue>ระบบช่วยเรียนรู้การเกษตรและพืชไร่</font></h1></marquee>
+
+</div>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">หน้าแรก</a></li>
+        <li><a href="page2.html">การเกษตร</a></li>
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="page3.html">พืชไร่<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+          <li><a href="page3.html">ความหมาย</a></li>
+          <li><a href="page3-1.html">การแบ่งประเภทตามพืชที่ปลูก</a></li>
+          <li><a href="page3-2.html">การแบ่งตามการใช้ประโยชน์</a></li>
+          <li><a href="page3-3.html">การแบ่งตามลักษณะพฤษศาสตร์</a></li>
+        </ul>
+      </li>
+              <li><a href="page10.html">เครื่องมือทางการเกษตร</a></li>
+        <li><a href="page11.html">การเลี้ยงสัตว์</a></li>
+        <li><a href="page4.html">ตัวอย่างพืชไร่</a></li>
+        <li><a href="page5.html">แบบฝึกหัด</a></li>
+
+        <li><a href="page8.php">ข้าว</a></li>
+        <li><a href="page9.html">สื่อมัลติมีเดีย</a></li>
+        <li><a href="Aboutme/index.html">ติดต่อเรา</a></li>
+      </ul>
+      
+    </div>
+  </div>
+</nav>
+  
+<div class="container-fluid">    
+  <div class="row content">
+    <div class="col-sm-2 sidenav">
+      
+    </div>
+    <div class="col-sm-10 text-left"> 
+    <center>
+    <br>
+    <h1><font face=JasmineUPC size=10 color=blue><b>ผลการค้นหา</b></font></h1>
+    <br>
+
+<table>
+  <tr>
+    <th>สายพันธุ์</th>
+    <th>ชื่ออังกฤษ</th>
+  </tr>
+  <tr>
+    <td>กข13</td>
+    <td>RD13</td>
+  </tr>
+  <tr>
+    <td>อยุธยา 1</td>
+    <td>Ayutthaya 1</td>
+  </tr>
+  <tr>
+    <td>ปราจีนบุรี2</td>
+    <td>Prachin Buri 2</td>
+  </tr>
+  <tr>
+    <td>กข12</td>
+    <td>RD12</td>
+  </tr>
+  <tr>
+    <td>นางฉลอง</td>
+    <td>Nahng Cha–lawng</td>
+  </tr>
+  <tr>
+    <td>กข16</td>
+    <td>RD16</td>
+  </tr>
+
+ <tr>
+    <td>กข15</td>
+    <td>RD15</td>
+  </tr>
+
+   <tr>
+    <td>กข17</td>
+    <td>RD17</td>
+  </tr>
+ <tr>
+    <td>กข27</td>
+    <td>RD27</td>
+  </tr>
+ <tr>
+    <td>กข35</td>
+    <td>RD35</td>
+  </tr>
+ <tr>
+    <td>กข5</td>
+    <td>RD5</td>
+  </tr>
+ <tr>
+    <td>กข6</td>
+    <td>RD6</td>
+  </tr>
+ <tr>
+    <td>กข8</td>
+    <td>RD8</td>
+  </tr>
+
+ <tr>
+    <td>กำผาย15</td>
+    <td>Gam Pai 15</td>
+  </tr>
+ <tr>
+    <td>ขาวกอเดียว35</td>
+    <td>-</td>
+  </tr>
+ <tr>
+    <td>ขาวดอกมะลิ105</td>
+    <td>Khon dawk mali105</td>
+  </tr>
+
+ <tr>
+    <td>ขาวตาแห้ง17</td>
+    <td>-</td>
+  </tr>
+
+ <tr>
+    <td>ขาวปากหม้อ148</td>
+    <td>Khao pahk maw148</td>
+  </tr>
+
+ <tr>
+    <td>ขาวหลวงสันป่าตอง</td>
+    <td>-</td>
+  </tr>
+
+ <tr>
+    <td>ข้าวเจ้าหอมพิษณุโลก</td>
+    <td>Khao jow hawm phitsanulok</td>
+  </tr>
+
+ <tr>
+    <td>ชุมแพ60</td>
+    <td>Chum phae60</td>
+  </tr>
+
+ <tr>
+    <td>ช่อลุง97</td>
+    <td>Cho's uncle97</td>
+  </tr>
+
+ <tr>
+    <td>นางพญา132</td>
+    <td>Nang-pa-yah132</td>
+  </tr>
+
+ <tr>
+    <td>นางมล เอส-4</td>
+    <td>Nahng monS-4</td>
+  </tr>
+ <tr>
+    <td>น้ำสะกุย19</td>
+    <td>Nam sa-gui19</td>
+  </tr>
+
+ <tr>
+    <td>ปทุมธานี60</td>
+    <td>Pathum Thani60</td>
+  </tr>
+
+ <tr>
+    <td>พวงไร่2</td>
+    <td>Puang Rai2</td>
+  </tr>
+
+ <tr>
+    <td>พัทลุง 60</td>
+    <td>Phatthalung60</td>
+  </tr>
+
+ <tr>
+    <td>พิษณุโลก3</td>
+    <td>Phitsanulok3</td>
+  </tr>
+
+ <tr>
+    <td>พิษณุโลก60-1</td>
+    <td>Phitsanulok60-1</td>
+  </tr>
+
+ <tr>
+    <td>พิษณุโลก80</td>
+    <td>Phitsanulok80</td>
+  </tr>
+
+ <tr>
+    <td>ลูกแดงปัตตานี</td>
+    <td>Look daeng pattani</td>
+  </tr>
+ <tr>
+    <td>หางยี71</td>
+    <td>Hahng Yi71</td>
+  </tr>
+
+ <tr>
+    <td>เก้ารวง88</td>
+    <td>Gow Ruang88</td>
+  </tr>
+
+ <tr>
+    <td>เข็มทองพัทลุง</td>
+    <td>Khem Tawng Phatthalung</td>
+  </tr>
+
+ <tr>
+    <td>เจ๊กเซย1</td>
+    <td>-</td>
+  </tr>
+
+ <tr>
+    <td>เฉี้ยงพัทลุง</td>
+    <td>Chiang Phattalung</td>
+  </tr>
+
+ <tr>
+    <td>เผือกน้ำ43</td>
+    <td>Lebnok Phattani43</td>
+  </tr>
+
+ <tr>
+    <td>เล็บนกปัตตานี</td>
+    <td>-</td>
+  </tr>
+ <tr>
+    <td>เหนียวดำช่อไม้ไผ่49</td>
+    <td>Niaw Dam Cham MaiPai49</td>
+  </tr>
+ <tr>
+    <td>เหนียวสันป่าตอง</td>
+    <td>-</td>
+  </tr>
+
+ <tr>
+    <td>เหนียวอุบล1</td>
+    <td>Niaw Ubon1</td>
+  </tr>
+ <tr>
+    <td>เหนียวอุบล2</td>
+    <td>Niaw Ubon1</td>
+  </tr>
+
+ <tr>
+    <td>เหมยนอง 62 เอ็ม</td>
+    <td>Muey Nawng 62 M</td>
+  </tr>
+ <tr>
+    <td>เเหลืองประทิว123</td>
+    <td>-</td>
+  </tr>
+
+ <tr>
+    <td>เหลืองใหญ่148</td>
+    <td>Leuang Yai 48</td>
+  </tr>
+
+ <tr>
+    <td>แก่นจันทร์</td>
+    <td>-</td>
+  </tr>
+
+ <tr>
+    <td>ไข่มดริ้น 3</td>
+    <td>-</td>
+  </tr>
+
+ <tr>
+    <td>กข1</td>
+    <td>RD1</td>
+  </tr>
+
+  <tr>
+    <td>กข10</td>
+    <td>RD10</td>
+  </tr>
+  <tr>
+
+    <td>กข11</td>
+    <td>RD11</td>
+  </tr>
+
+<tr>
+    <td>กข14</td>
+    <td>RD14</td>
+  </tr>
+
+  <tr>
+    <td>กข2</td>
+    <td>RD2</td>
+  </tr>
+
+  <tr>
+    <td>กข21</td>
+    <td>RD21</td>
+  </tr>
+
+<tr>
+    <td>กข23</td>
+    <td>RD23</td>
+  </tr>
+
+  <tr>
+    <td>กข25</td>
+    <td>RD25</td>
+  </tr>
+
+  <tr>
+    <td>กข29 (ชัยนาท 80)</td>
+    <td>RD29 </td>
+  </tr>
+
+  <tr>
+    <td>กข3</td>
+    <td>RD3</td>
+  </tr>
+
+  <tr>
+    <td>กข31 (ปทุมธานี 80)</td>
+    <td>RD31</td>
+  </tr>
+
+  <tr>
+    <td>กข33 (หอมอุบล 80)</td>
+    <td>RD33</td>
+  </tr>
+
+  <tr>
+    <td>กข37</td>
+    <td>RD37</td>
+  </tr>
+
+  <tr>
+    <td>กข39</td>
+    <td>RD39</td>
+  </tr>
+
+  <tr>
+    <td>กข4</td>
+    <td>RD4</td>
+  </tr>
+
+  <tr>
+    <td>กข41</td>
+    <td>RD41</td>
+  </tr>
+
+  <tr>
+    <td>กข43</td>
+    <td>RD43</td>
+  </tr>
+
+  <tr>
+    <td>กข47</td>
+    <td>RD47</td>
+  </tr>
+
+  <tr>
+    <td>กข7</td>
+    <td>RD7</td>
+  </tr>
+
+  <tr>
+    <td>กข9</td>
+    <td>RD9</td>
+  </tr>
+
+  <tr>
+    <td>ข้าวเจ้าหอมคลองหลวง 1</td>
+    <td>Khao Jow Hawm Khlong Luang 1</td>
+  </tr>
+
+  <tr>
+    <td>ข้าวเจ้าหอมสุพรรณบุรี</td>
+    <td>Khao Jow Hawm Suphan Buri</td>
+  </tr>
+
+  <tr>
+    <td>ชัยนาท 1</td>
+    <td>Chai Nat1</td>
+  </tr>
+
+  <tr>
+    <td>ชัยนาท 2</td>
+    <td>Chai Nat2</td>
+  </tr>
+
+  <tr>
+    <td>บางแตน</td>
+    <td>Bang Tan</td>
+  </tr>
+
+  <tr>
+    <td>ปทุมธานี 1</td>
+    <td>Pathum Thani 1</td>
+  </tr>
+
+  <tr>
+    <td>พัทลุง</td>
+    <td>Phatthalung</td>
+  </tr>
+
+  <tr>
+    <td>พิษณุโลก 2</td>
+    <td>Phitsanulok 2</td>
+  </tr>
+
+  <tr>
+    <td>พิษณุโลก 60-2</td>
+    <td>Phitsanulok 60-2</td>
+  </tr>
+
+  <tr>
+    <td>สกลนคร</td>
+    <td>Sakon Nakhon</td>
+  </tr>
+
+  <tr>
+    <td>สันป่าตอง 1</td>
+    <td>-</td>
+  </tr>
+
+  <tr>
+    <td>สุพรรณบุรี 1</td>
+    <td>Suphan Buri1</td>
+  </tr>
+
+  <tr>
+    <td>สุพรรณบุรี 2</td>
+    <td>Suphan Buri 2</td>
+  </tr>
+
+  <tr>
+    <td>สุพรรณบุรี 3</td>
+    <td>Suphan Buri 3</td>
+  </tr>
+
+  <tr>
+    <td>สุพรรณบุรี 60</td>
+    <td>Suphan Buri 60</td>
+  </tr>
+
+  <tr>
+    <td>สุพรรณบุรี 90</td>
+    <td>Suphan Buri 90</td>
+  </tr>
+
+  <tr>
+    <td>สุรินทร์ 1</td>
+    <td>Surin 1</td>
+  </tr>
+
+  <tr>
+    <td>แพร่ 1</td>
+    <td>Phrae 1</td>
+  </tr>
+
+  <tr>
+    <td>ข้าวเจ้าหอมสุพรรณบุรี</td>
+    <td>Khao Jow Hawm Suphan Buri</td>
+  </tr>
+
+  <tr>
+    <td>กข45</td>
+    <td>RD45</td>
+  </tr>
+
+  <tr>
+    <td>อยุธยา 1</td>
+    <td>Ayutthaya 1</td>
+  </tr>
+
+  <tr>
+    <td>ปราจีนบุรี 2</td>
+    <td></td>
+  </tr>
+
+  <tr>
+    <td>ปราจีนบุรี 1</td>
+    <td>Prachin Buri 1</td>
+  </tr>
+
+  <tr>
+    <td>หันตรา 60</td>
+    <td>-</td>
+  </tr>
+
+  <tr>
+    <td>ขาวบ้านนา 432</td>
+    <td>-</td>
+  </tr>
+
+  <tr>
+    <td>ตะเภาแก้ว 161</td>
+    <td>Ta pow Gaew 161</td>
+  </tr>
+
+  <tr>
+    <td>นางฉลอง</td>
+    <td>Nahng Cha–lawng</td>
+  </tr>
+
+  <tr>
+    <td>ปิ่นแก้ว 56</td>
+    <td>Pin Gaew 56</td>
+  </tr>
+
+  <tr>
+    <td>พลายงามปราจีนบุรี</td>
+    <td>Plai Ngahm Prachin Buri</td>
+  </tr>
+
+  <tr>
+    <td>เล็บมือนาง 111</td>
+    <td>Leb Meu Nahng 111</td>
+  </tr>
+
+
+
+
+
+
+
+</table>
+</center>
+
+  <br>
+  <br>
+
+    </div>
+  </div>
+</div>
+</div>
+
+<footer class="container-fluid text-center">
+  <p>Design by : Miruntee Keawlak</p>
+</footer>
+
+</body>
+</html>
